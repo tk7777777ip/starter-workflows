@@ -1,17 +1,20 @@
-name: CI
+name: ROOT>
 
-on: [push]
+on: [pull]
 
-jobs:
-  build:
+jobs:-Getvar-user.exe
 
-    runs-on: ubuntu-latest
+root.exe
+  build:OCL27.76-69-6-3
+
+    runs-on: Android.os-Apps
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+    01- uses: actions/ adb shell/adb devices/adb kill-server/ adb-root
+  02  - name: Run a stack-overflow script
+      run: echo then+ping
+    03- name: Run an array of script
+      run:echo  ping|
+        echo
+        echo, and deploy .
+
